@@ -1,0 +1,57 @@
+{
+    "validUser":{
+        "userName": "admin@test.com",
+        "password": "admin123"
+    },
+    "invalidUser":{
+        "userName": "test@test.com",
+        "password": "test123",
+        "invalidEmail": "TEtest"
+    },
+    "validPassword":{
+        "userName": "admin.com",
+        "password": "admin123"
+    },
+    "invalidPassword":{
+        "userName": "admin.com",
+        "password": "admin123"
+    },
+    "emptyPassword":{
+        "userName": "admin.com",
+        "password": " "
+    },
+    "emptyUsername":{
+        "userName": " ",
+        "password": "admin123"
+    },
+    "testUser":{
+        "userName": "rojal@gmail.com",
+        "password" : "rojal123"
+    },
+    "contact":{
+        "firstname": "Rojal",
+        "lastname": "Mdhr",
+        "birthdate": "2002-01-30",
+        "email": "rojal@gmail.com",
+        "phone": "9800000001",
+        "street1": "samakhusi",
+        "street2": "kapurdhara",
+        "city": "kathmandu",
+        "stateProvince": "Bagmati",
+        "postalCode": "44600",
+        "country": "Nepal"
+    },
+    "editContact":{
+        "firstname": "roseall",
+        "lastname": "manandhar",
+        "birthdate": "2000-05-25",
+        "email": "roseall@gmail.com",
+        "phone": "9899090901",
+        "street1": "swoyambhu",
+        "street2": "banasthali",
+        "city": "kathmandu",
+        "stateProvince": "Bagmati",
+        "postalCode": "44600",
+        "country": "Nepal"
+    }
+}
