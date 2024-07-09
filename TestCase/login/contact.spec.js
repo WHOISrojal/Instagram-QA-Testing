@@ -1,6 +1,7 @@
 const { test, expect } = require("@playwright/test");
 const testData = require("../fixtures/loginFixture.json");
 import { LoginPage } from "../pageObjects/login.po.js";
+import { ContactPage } from "../pageObjects/contactlist.po.js";
 const {
   authenticateUser1,
   deleteEntity,

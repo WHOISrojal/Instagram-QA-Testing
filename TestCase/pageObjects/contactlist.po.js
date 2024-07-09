@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-exports.ContactListPage = class ContactListPage{
+exports.ContactPage = class ContactPage{
     constructor(page){
         this.page=page;
         this.email='//input[@id="email"]';
